@@ -5,3 +5,4 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Product.create(:title=>'Capital', :description=>%{<p>Love etc.</p>}, :image_url=>'/images/capital.jpg', :price=>99.99)
