@@ -3,7 +3,7 @@
 one:
   title: MyString
   description: MyText
-  image_url: MyString
+  image_url: MyString.png
   price: 9.99
 
 two:
@@ -11,3 +11,10 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+  
+alice:
+  title: Alice in wonderland
+  description: tail story
+  image_url: rabbit.jpg
+  price: 4.99 
+  
