@@ -1,4 +1,6 @@
 CourseDepotApp::Application.routes.draw do
+  resources :carts
+
   resources :products
 
   # The priority is based upon order of creation:
@@ -50,7 +52,7 @@ CourseDepotApp::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-   root :to => '/'
+   root :to => 'store#index'
 
   # See how all your routes lay out with "rake routes"
 
